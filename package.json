@@ -1,0 +1,23 @@
+{
+  "name": "cex-wallet-tracker",
+  "version": "1.0.0",
+  "description": "Solana CEX Outflow Listener with Scrutiny Check (logsSubscribe Only)",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.0",
+    "dotenv": "^16.4.5",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "@types/ws": "^8.5.10",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2"
+  }
+}
